@@ -50,6 +50,25 @@ git branch --set-upstream-to branch_name
 git branch --set-upstream-to main
 
 ```
+**Add upstream**
+```bash
+git remote add upstream <git_repository_url>
+```
+**Remove upstream**
+```bash
+git remote remove upstream
+git rm remove upstream
+```
+
+**Verify Upstream remote**
+```bash
+git remote -v
+```
+**Pull changes from main or another branch**
+```bash
+git pull upstream main
+git pull upstream <branch_nem>
+```
 
 ### Reference
 https://stackoverflow.com/questions/520650/make-an-existing-git-branch-track-a-remote-branch
