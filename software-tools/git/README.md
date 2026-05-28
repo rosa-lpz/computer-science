@@ -86,7 +86,10 @@ git log
 git add <file_name> or <folder> 
 
 # remove file/folder
-git rm <file_name> or <folder> 
+git rm <file_name> or <folder>
+
+# remove recursivly with -r
+git rm r- <folder> 
 ```
 # Restore
 
