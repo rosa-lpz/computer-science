@@ -94,8 +94,9 @@ git rm r- <folder>
 # Restore
 
 ```bash
-# to discard changes in working directory
+# to discard changes in working directory / unstage
 git restore <file>
+git restore --staged <file>
 ```
 
 
