@@ -95,18 +95,33 @@ postgres=#
 ```
 Then type:
 ```bash
-postgres=# alter user postgres with password 'add_password'
+postgres=# alter user postgres with password 'add_password';
 ALTER ROLE
 postgres=# quit
 ```
 
 ### References
-* How to Install Postgres and Pgadmin on Ubuntu 24.04 LTS Linux:https://youtu.be/cD32EHVWRXY
+* How to Install Postgres and Pgadmin on Ubuntu 24.04 LTS Linux: https://youtu.be/cD32EHVWRXY
 
+# Create/Register a Server
+Steps to register a server in PostgreSQL
+* Go to 'Servers' in left-side panel
+* Click on the right mouse button and selec 'Register' > 'Server'
+* In 'Register - Server' dialog
+    * 'General' tab: 
+        Name: Give a name to the server 
+            * Example: 'LocalConnection'
+    * 'Connection' tab: 
+        * Host name / address: Give a name to the host / address
+            * Example: 'localhost'
+        * Port: default is 5432
+
+### References
+* How to Install Postgres and Pgadmin on Ubuntu 24.04 LTS Linux: https://youtu.be/cD32EHVWRXY
 
 # Create a Database and Schema using a query
 A database can be created by:
-* Runnin a SQL script
+* Running a SQL script
 * Create the database using the pgAdmin and adding flat files to database
 * Restore the database using a file (example: DataWarehouseAnalytics.bak)
 
