@@ -4,7 +4,7 @@ Notes and resources for computer science
 ## Mathematics
 * [Mathematics](https://github.com/rosa-lpz/mathematics)
 
-## [Data Structures and Algoritms](https://github.com/rosa-lpz/algorithms)
+## [Data Structures and Algorithms](https://github.com/rosa-lpz/algorithms)
 
 ## Programming Languages
 * [Python](https://github.com/rosa-lpz/python)
