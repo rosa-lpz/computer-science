@@ -13,7 +13,25 @@ $x_1$, $a_{ij}$, $\log_2 n$
 $x_1^2$, $a_{i,j}^{(k)}$, $\sum_{i=1}^n x_i^2$
 
 
+## Fractions 
+**Markdown**
+```markdown
+<!-- Basic fractions -->
+$\frac{1}{2}$, $\frac{a}{b}$, $\frac{x+y}{x-y}$
 
+<!-- Continued fractions -->
+$\frac{1}{1 + \frac{1}{2 + \frac{1}{3 + \cdots}}}$
+
+<!-- Complex fractions -->
+$\frac{\partial^2 f}{\partial x^2}$, $\frac{d}{dx}\left(\frac{1}{x}\right)$
+```
+
+**Rendered Output**
+$\frac{1}{2}$, $\frac{a}{b}$, $\frac{x+y}{x-y}$
+
+$\frac{1}{1 + \frac{1}{2 + \frac{1}{3 + \cdots}}}$
+
+$\frac{\partial^2 f}{\partial x^2}$, $\frac{d}{dx}\left(\frac{1}{x}\right)$
 
 ## Operators
 ```markdown
