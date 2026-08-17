@@ -119,3 +119,28 @@ x + y = 1 \\
 2x - y = 0
 \end{cases}
 $$
+
+
+### Large matrix
+**Markdown**
+```markdown
+<!-- Large matrix -->
+$$
+\begin{bmatrix}
+1 & 0 & \cdots & 0 \\
+0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & 1
+\end{bmatrix}
+$$
+```
+**Rendered Output**
+
+$$
+\begin{bmatrix}
+1 & 0 & \cdots & 0 \\
+0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & 1
+\end{bmatrix}
+$$
