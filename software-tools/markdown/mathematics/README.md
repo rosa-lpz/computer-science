@@ -1,6 +1,19 @@
 # Matematics
 * https://www.markdownlang.com/advanced/math.html
 
+## Basic Math Elements 
+
+<!-- Superscripts -->
+$x^2$, $e^{i\pi}$, $2^{10}$
+
+<!-- Subscripts -->
+$x_1$, $a_{ij}$, $\log_2 n$
+
+<!-- Combined -->
+$x_1^2$, $a_{i,j}^{(k)}$, $\sum_{i=1}^n x_i^2$
+
+
+
 
 ## Operators
 ```markdown
