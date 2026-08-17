@@ -97,3 +97,25 @@ a & b \\
 c & d
 \end{vmatrix} = ad - bc
 $$
+
+
+
+### System of equations
+**Markdown**
+```markdown
+<!-- System of equations -->
+$$
+\begin{cases}
+x + y = 1 \\
+2x - y = 0
+\end{cases}
+$$
+```
+**Rendered Output**
+
+$$
+\begin{cases}
+x + y = 1 \\
+2x - y = 0
+\end{cases}
+$$
