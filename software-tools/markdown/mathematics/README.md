@@ -60,6 +60,7 @@ $$
 ### Matrix with parentheses
 **Markdown**
 ```markdown
+<!-- Matrix with parentheses -->
 $$
 \begin{pmatrix}
 1 & 2 & 3 \\
@@ -75,4 +76,24 @@ $$
 4 & 5 & 6 \\
 7 & 8 & 9
 \end{pmatrix}
+$$
+
+
+### Determinant
+**Markdown**
+```markdown
+<!-- Determinant -->
+$$
+\begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix} = ad - bc
+$$
+```
+**Rendered Output**
+$$
+\begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix} = ad - bc
 $$
